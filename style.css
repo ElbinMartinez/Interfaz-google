@@ -1,0 +1,252 @@
+
+body {
+    margin:0;
+    padding:0;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #202124;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+nav{
+    height: 48px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px;
+    border: green;
+}
+
+main{
+/*border: solid;*/
+height: calc(100vh - 110px)
+}
+
+.plain-links{
+    text-decoration: none;
+}
+
+
+.plain-links:hover{
+    text-decoration: underline;
+}
+
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    height: 92px;
+}
+
+main .main-logo img{
+    height: 100px;
+    
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 525px;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main .main-input input{
+    border: none;
+    width: 530px;
+    height: 40px;
+    outline: none;
+}
+
+
+main .main-input-container:hover{
+    box-shadow: 0 1p 6px 0 #20212447;
+    border-color: #dfe1e500;
+
+}
+
+main .main-input .search-icon{
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 14px;
+    height: 14px;
+    padding-left: 6%;
+
+
+}
+
+
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    padding-left: 2%;
+    
+}
+
+
+main .main-input .cam-icon{
+    background-image: url(https://www.shutterstock.com/image-vector/high-resolution-transparent-google-lens-260nw-2266081455.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 60px;
+    height: 20px;
+    cursor: pointer;
+    padding-right: 8%;
+     
+}
+
+main .main-buttons div {
+    display: inline-block
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons button{
+    border: none;
+    height: 36px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 4px;
+    padding: 0 15px;
+    border: 1px solid #f8f9fa;
+    margin-right: 10px;
+}
+
+
+main .main-buttons button:hover{
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    border: 1px solid #dadce0;
+    color: #202124;
+    cursor: pointer;
+}
+
+.menu-icon{
+    height: 24px;
+    width: 24px;
+    padding: 8px;
+}
+
+.links-container{
+/*border: solid green 2px;*/
+margin-right: 15px;
+}
+
+
+.padding-left{
+    padding-left: 15px;
+}
+
+
+.images-container{
+/*border: solid green 2px;*/
+display: flex;
+align-items: center;
+}
+
+
+.images-container img{
+    cursor: pointer;
+}
+
+.avatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+
+
+logo{
+    forced-color-adjust: none;
+    height: 92px;
+    width: 272px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    background-color: #FFFFFF;
+}
+
+
+.footer {
+    display: flex;
+    padding: 15px 0 15px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    opacity: 70%;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.left {
+    display: flex;
+    margin-right: 30px;
+    gap: 30px;
+    opacity: 70%;
+    align-content: flex-start;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    opacity: 70%;
+}
+
+.link-footer {
+    text-decoration: none;
+}
+
+.link-footer:hover {
+    text-decoration: underline
+}
